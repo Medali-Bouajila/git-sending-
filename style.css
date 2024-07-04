@@ -1,0 +1,34 @@
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/360_F_630188009_imkknmuaOXUpXExgCbqhOqKbd4hqmKCY\ \(1\).jpg);
+    filter: blur(3px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+#title button {
+    margin-top: 20px;
+}
+#parent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:900px ) 
+ { #hero { 
+    flex-direction: column-reverse;}
+    
+}
+#des{
+   
+ }
